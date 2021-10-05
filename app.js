@@ -6,7 +6,6 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-const { parse } = require('path');
 
 var app = express();
 
@@ -39,6 +38,6 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-console.log(" ** Server is running smoothly! *****","\n",`** Localhost current server: 3000 **`)
+console.log("\x1b[32m ** Server is running smoothly! *****\x1b[89m","\n",`\x1b[37m** Localhost current server:\x1b[89m \x1b[34m3000\x1b[89m **`)
 
 module.exports = app;

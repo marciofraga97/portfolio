@@ -1,0 +1,3 @@
+mailjet.com
+sendgrid.com (More info: https://sendgrid.com/blog/sending-email-nodemailer-sendgrid/)
+alertifyjs.com ( ---> notifier)
